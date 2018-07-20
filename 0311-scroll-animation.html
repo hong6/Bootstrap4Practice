@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <title>Scroll Animation</title>
+    <style>
+        header.masthead{
+            text-align:center;
+            color: white;
+            background-image: url('img/header-bg.jpg');
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center center;
+            background-size: cover;
+
+                padding-top: 300px;
+                padding-bottom: 200px;
+        }
+
+        .heightAdder{height: 1000px;}
+
+    @media (min-width: 992px) {
+          #mainNav {
+            padding-top: 25px;
+            padding-bottom: 25px;
+            -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+            -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+            transition: padding-top 0.3s, padding-bottom 0.3s;
+            border: none;
+            background-color: transparent;
+          }
+          #mainNav .navbar-brand {
+            font-size: 1.75em;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+          }
+          #mainNav .navbar-nav .nav-item .nav-link {
+            padding: 1.1em 1em !important;
+          }
+          #mainNav.navbar-shrink {
+            padding-top: 0;
+            padding-bottom: 0;
+            background-color: black;
+          }
+          #mainNav.navbar-shrink .navbar-brand {
+            font-size: 1.25em;
+            padding: 12px 0;
+          }
+}
+
+
+
+    </style>
+  </head>
+  <body id="top">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#top">Navbar</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation">Menu <i class="fa fa-bars"></i></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto" >
+               
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Sub-Link 1</a>
+                  <a class="dropdown-item" href="#">Sub-Link 2</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Sub-Link 3</a>
+                </div>
+                </li>
+               
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#link1">Link1</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#link2">Link2</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#link3">Link3</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#link4">Link4</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#link5">Link5</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text"></div>
+      </div>
+    </header>
+    
+    <div class="heightAdder"></div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="js/navbar-shrinker.js"></script>
+  </body>
+</html>
