@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <title>Responsive Floats</title>
+    <link rel="stylesheet" type="text/css" href="css/0408-styles.css">
+  </head>
+  <body>
+   
+    <div class="container">
+        <h3 class="h4 xs mb-4">Extra-Small Devices &lt; 576px </h3>
+        <h3 class="h4 sm mb-4">Small Devices &gt; 576px</h3>
+        <h3 class="h4 md mb-4">Medium Devices &gt; 768px</h3>
+        <h3 class="h4 lg mb-4">Large Devices &gt; 992px</h3>
+        <h3 class="h4 xl mb-4">XL-Large Devices &gt; 1200px</h3>
+        
+        <!--
+        <p class="float-right clearfix">&ldquo;Once,&rdquo;said the Mock Turtle<br>at last, with a deep sigh,<br>&ldquo;I was a real Turtle.&rdquo;</p>
+        -->
+        
+        <!-- when screen reachs md(sm md lg xl), then the text float to the right 
+        <p class="float-md-right clearfix">&ldquo;Once,&rdquo;said the Mock Turtle<br>at last, with a deep sigh,<br>&ldquo;I was a real Turtle.&rdquo;</p>     
+        -->
+       
+        <!-- when screen reachs md(sm md lg xl), then the text float to the right -->
+        <p class="float-sm-right float-xl-left clearfix">&ldquo;Once,&rdquo;said the Mock Turtle<br>at last, with a deep sigh,<br>&ldquo;I was a real Turtle.&rdquo;</p>
+
+        <div class="clearfix">
+            <button class="float-left">Left Float</button>
+            <button class="float-right">Right Float</button>
+        </div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem veritatis, aliquid voluptatum cum iste minus odio, omnis magni distinctio repellendus amet, architecto doloribus, ipsum laudantium corporis quibusdam dolorem consectetur itaque.</p>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>

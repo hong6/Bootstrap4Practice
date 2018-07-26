@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <title>List Groups with Javascript Behaviors</title>
+    <style>
+        header.masthead{
+            text-align:center;
+            color: white;
+            background-image: url('img/header-bg.jpg');
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center center;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+  </head>
+  <body id="top">
+
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text"></div>
+      </div>
+    </header>
+    
+    
+    <div class="container mt-4">
+      
+      <h1>Alice’s Adventures in Wonderland</h1>
+    
+      <div class="row mt-5 mb-5">
+          <div class="col-4">
+            <div class="list-group mb-5" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-chap1-list" href="#list-chap1" data-toggle="list">Chapter 1</a>
+                <a class="list-group-item list-group-item-action" id="list-chap2-list" href="#list-chap2" data-toggle="list">Chapter 2</a>
+                <a class="list-group-item list-group-item-action" id="list-chap3-list" href="#list-chap3" data-toggle="list">Chapter 3</a>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="list-chap1" role="tabpanel">
+                <h3>Down the Rabbit-Hole</h3>
+                <p>Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, &ldquo;and what is the use of a book,&rdquo; thought Alice &ldquo;without pictures or conversations?&ldquo;&#8230;</p>
+              </div>
+              <div class="tab-pane fade" id="list-chap2" role="tabpanel">
+                <h3>The Pool of Tears</h3>
+                <p>&ldquo;Curiouser and curiouser!&rdquo; cried Alice (she was so much surprised, that for the moment she quite forgot how to speak good English); &ldquo;now I&rsquo;m opening out like the largest telescope that ever was! Good-bye, feet!&rdquo; (for when she looked down at her feet, they seemed to be almost out of sight, they were getting so far off). &ldquo;Oh, my poor little feet, I wonder who will put on your shoes and stockings for you now, dears? I&rsquo;m sure I shan&rsquo;t be able! I shall be a great deal too far off to trouble myself about you: you must manage the best way you can; &mdash; but I must be kind to them,&rdquo; thought Alice, &rsquo;or perhaps they won&rsquo;t walk the way I want to go! Let me see: I&rsquo;ll give them a new pair of boots every Christmas.&rdquo;&#8230;</p>
+              </div>
+              <div class="tab-pane fade" id="list-chap3" role="tabpanel">
+                <h3>A Caucus-Race and a Long Tale</h3>
+                <p>They were indeed a queer-looking party that assembled on the bank—the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross, and uncomfortable&#8230;</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+       
+      
+ 
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>
