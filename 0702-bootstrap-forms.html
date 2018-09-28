@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <title>Bootstrap Forms</title>
+  </head>
+  <body>
+   
+    <div class="container">        
+     <h3 class="display-4 text-muted">Wonderland Contact Form</h3>
+         <div class="row">   
+           <div class="col-sm-9">
+               <form class="form-group">
+                <div class="form-group">
+                    <label for="name">character's name</label>
+                    <input class="form-control" type="text" id="name" placeholder="Enter your character's name">
+                </div>
+
+                <div class="form-group"> 
+                   <label for="email">Character's Email Address</label>        
+                    <input class="form-control" type="text" id="email" placeholder="Enter your character's email address">
+                    <small class="form-text text-muted">Your character's email will not be shared with anyone.</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Character's Password</label>
+                    <input class="form-control" type="password" id="password" placeholder="password" readonly>
+                </div>
+
+                <div class="form-group">
+                    <label for="species">Species</label>
+                    <select id="species" class="form-control">
+                        <option>Human</option>
+                        <option>Non-Human</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message for the Queen of Hearts</label>
+                    <textarea class="form-control" id="message" row="3"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="file">Upload a file</label>
+                    <input class="form-control-file btn btn-white" type="file" id="file">
+                    <small class="form-text text-muted" id="helpFile">Maximum size is three yottabytes.</small>
+                </div>
+
+                <button type="submit" class="btn btn-success">Submit</button>
+          </form>   
+           </div>
+           <div class="col-sm-3">
+                <img src="img/rabbit.jpeg" class="img-fluid">
+           </div>     
+             
+          </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>
